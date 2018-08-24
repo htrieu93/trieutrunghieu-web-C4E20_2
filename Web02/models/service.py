@@ -7,4 +7,7 @@ class Service(Document):
     height = IntField()
     phone = StringField()
     address = StringField()
-    status = BooleanField() 
+    status = BooleanField()
+    image = StringField()
+    measurements = ListField()
+    descriptions = ListField()

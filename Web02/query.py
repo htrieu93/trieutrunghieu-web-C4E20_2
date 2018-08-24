@@ -3,11 +3,18 @@ import mlab
 
 mlab.connect()
 
-Get all documents from colletion
-all_service = Service.objects()
+id_to_find = "5b7824d25f029f42645b8d1b"
 
-first_service = all_service[0]
+# hera = Service.objects(id = id_to_find) ## -> []
+# hera = Service.objects.get(id = id_to_find) ## -> Service obj
+service = Service.objects.with_id(id_to_find) ## -> Service obj
 
-
-
-
+if service is not None: 
+    # service.delete()
+    # print('Deleted')
+    print(service.to_mongo())
+    service.update(set__yob = 2005, set__name = 'Linh kute')
+    service.reload()
+    print(service.to_mongo())
+else:
+    print('Not found')
