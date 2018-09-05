@@ -1,0 +1,38 @@
+.top-box-model{
+    height: 50px;
+    background-color: green;
+}
+
+.mid-box-model{
+    height: 400px;
+    background-color: red;
+    padding: 0px 100px 0px 100px;
+}
+
+.bot-box-model{
+    height:50px;
+    background-color: yellow;
+}
+
+.l-top-box{
+    height: 35px;
+    text-align: left;
+    background-color: red;
+}
+
+.r-top-box{
+    height: 15px;
+}
+
+.l-tiny{
+    background-color:white;
+    align-self: left;
+    width: 50px;
+    display: inline-block;
+}
+
+.child-mid-box{
+    height: 400px;
+    background-color: orchid;
+    align-self: middle;
+}
