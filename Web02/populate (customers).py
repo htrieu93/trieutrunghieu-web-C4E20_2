@@ -14,12 +14,12 @@ for i in range(10):
     measurements = [randint(70,90), randint(60,70), randint(70,90)]
     gender = randint(0, 1)
 
-    descriptions_female = ['ngoan hiền', 'biết nấu ăn', 'nhu mỳ', 'dễ thương', 'thích chụp ảnh', 'lễ phép với gia đình', 'biết đánh đàn', 
-                    'trượt pa tanh', 'biết chơi DOTA', 'thích đọc sách', 'thích du lịch', 'thích quẩy', 'thích đi ăn đêm', 'yêu động vật',
-                    'thích ngắm trời mưa', 'yêu thích thể thao', 'yêu thích trẻ con']
-    descriptions_male = ['thích chơi các trò chơi cảm giác mạnh', 'biết nấu ăn', 'thích chụp ảnh', 'thích chơi ghita', 
-                    'trượt pa tanh', 'thích chơi bóng chuyền', 'thích đọc sách', 'thích du lịch', 'thích đi ăn đêm', 'yêu động vật',
-                    'biết chơi bóng rổ', 'cao to sáng láng', 'đẹp zai', 'ga-lăng', 'chăm làm việc nhà']
+    descriptions_female = ["ngoan hiền", "biết nấu ăn", "nhu mỳ", "dễ thương", "thích chụp ảnh", "lễ phép với gia đình", "biết đánh đàn", 
+                    "trượt pa tanh", "biết chơi DOTA", "thích đọc sách", "thích du lịch", "thích quẩy", "thích đi ăn đêm", "yêu động vật",
+                    "thích ngắm trời mưa", "yêu thích thể thao", "yêu thích trẻ con"]
+    descriptions_male = ["thích chơi các trò chơi cảm giác mạnh", "biết nấu ăn", "thích chụp ảnh", "thích chơi ghita", 
+                    "trượt pa tanh", "thích chơi bóng chuyền", "thích đọc sách", "thích du lịch", "thích đi ăn đêm", "yêu động vật",
+                    "biết chơi bóng rổ", "cao to sáng láng", "đẹp zai", "ga-lăng", "chăm làm việc nhà"]
     
     image_female = ['female.jpg', 'hand.jpg', 'slide3.jpg', 'steel.jpg', 'woods.jpg']
     image_male = ['male.jpg', 'lightning.jpg', 'night.jpg', 'rocks.jpg', 'slide4.jpg', 'slide5.jpg']
