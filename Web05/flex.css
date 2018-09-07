@@ -18,9 +18,10 @@
     height: 100px;
 }
 
-.flex-box{
+#flex-box{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     height: 500px;
+    align-items: center;
 }
