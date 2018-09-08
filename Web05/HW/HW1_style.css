@@ -1,5 +1,5 @@
-.bg-pink{
-    background-color: fuchsia
+.bg-ygreen{
+    background-color: yellowgreen;
 }
 
 .bg-gray{
@@ -10,20 +10,60 @@
     height: 200px;
 }
 
-.m-50px{
-    margin: 50px 0px;
+.flex-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center
 }
 
-#flex-box{
+.flex-box-mid{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 55%;
+    padding-bottom: 1.5%;
 }
 
 .round-box{
-    display: inline-block;   
     border: 2px salmon;
     border-radius: 50%;
-    width: 9%;
+    width: 10%;
 }
 
+.t-top{
+    text-align: center;
+    padding-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.flex-box-line{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 0.5%;
+    padding-bottom: 1%;
+}
+
+.line{
+    background-color: red;
+    width: 10%;
+    
+}
+
+.flex-box-bot{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
+.t-bot{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
