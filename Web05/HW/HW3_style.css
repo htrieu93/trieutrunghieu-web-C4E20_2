@@ -1,7 +1,3 @@
-.d-inline-block{
-    display: inline-block;
-}
-
 .bg-lgreen{
     background-color: lightgreen;
 }
@@ -27,20 +23,24 @@
     min-height: 100%;
 }
 
-.h-45pct{
-    height: 45%;
+.h-350px{
+    height: 350px;
 }
 
-.h-10pct{
-    height: 10%;
+.h-50px{
+    height: 50px;
 }
 
-.w-85pct{
-    width: 85%;
+.w-850px{
+    width: 850px;
 }
 
-.w-13pct{
-    width: 13%;
+.w-150px{
+    width: 150px;
+}
+
+.w-1000px{
+    width: 1025px;
 }
 
 .main-flex-box{
@@ -55,22 +55,32 @@
 
 .hor-top-flex-box{
     display: flex;
-    
     flex-direction: column;
-    
 }
 
 .white{
-    background-color: #D3DCC5;
+    background-color: white;
     height: 10%;
     width: 20%;
-    margin-top: 20%;
+    margin-top: 25%;
+}
+
+.t-white{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 
 .black{
     background-color: black;
     height: 10%;
-    width: 40%;
+    width: 45%;
+}
+
+.t-black{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    font-size: 85%;
 }
 
 .hor-bot-flex-box{
@@ -79,53 +89,89 @@
     flex-direction: row;
 }
 
-.sb-red{
-    background-color: #FF0044;
+.sb-logo{
+    background-image: url(static/images/page-logo.png);
     height: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.sb-ocean-blue{
-    background-color: #0077be;
-    height: 5%;
+.sb-icon{
+    display: flex;
+    height: 10%;
 }
 
-.sb-light-blue{
-    background-color:lightblue;
-    height: 5%;
+.icon-height{
+    height: '32px'; 
+    width: '35';
+}
+
+img{
+    object-fit: scale-down;
+}
+
+.i-height-80px{
+    height: 80px;
+}
+
+.i-height-50px{
+    height: 50px;
+}
+
+.f-pathway-gothic{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #91CCBD;
+    margin-top: 5%;
 }
 
 .sb-gray{
-    background-color: gray;
-    height: 45%;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+}
+
+.f-gamja{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 65%;
 }
 
 .green{
-    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
     height: 20%;
     width: 24.7%;    
 }
 
+.t-margin-5pct{
+    margin-left: 5%;
+}
+
+.f-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 85%;
+    color: lightskyblue;
+}
+
+.f-amatic{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60%;
+    color: lightskyblue;
+}
+
 .blueish{
-    background-color: #8B9FDB;
     height: 10%;
     width: 60%;
 }
 
 .redish{
-    background-color: #D89082;
     height: 10%;
     width: 40%;
 }
 
-.green-mold{
-    background-color: #6DD09B;
-    height: 20%;
-    width: 23%;
-}
-
 .pink-red{
-    background-color: #EA2154;
     height: 40%;
     width: 23%;
 }
@@ -134,9 +180,49 @@
     flex-wrap: wrap;
 }
 
-.p-header{
-    background-image: url('http://www.birds.com/wp-content/uploads/home/bird4.jpg');
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
+#p-header{
+    background-image: url(static/images/header.jpg);
+    background-size: cover;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
+.border-box--dashed{
+    border: 1px dashed red;
+}
+
+.border-box--solid{
+    border-top: 1px solid gray;
+}
+
+.f-oswald{
+    font-family: 'Oswald', sans-serif;
+    color: lightskyblue;
+}
+
+.flex-box--row{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.bg-cover{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-size: cover;
+    width: 177px;
+    height: 118px;
+}
+
+.f-lato{
+    font-family: 'Lato', sans-serif;
+    font-size: 65%;
+}
+
+.f-ubunto{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 85%;
+    color: lightskyblue;
 }

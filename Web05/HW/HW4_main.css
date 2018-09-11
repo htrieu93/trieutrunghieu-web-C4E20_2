@@ -1,0 +1,29 @@
+.inline-block{
+    display: inline-block;
+}
+
+.f-box{
+    display: flex;
+}
+
+.f--row{
+    display: flex;
+    flex-direction: row;
+}
+
+.f--col{
+    display: flex;
+    flex-direction: column;
+}
+
+.f--space_btw{
+    justify-content: space-between;
+}
+
+.f--space_even{
+    justify-content: space-evenly;
+}
+
+.f--wrap{
+    flex-wrap: wrap;
+}

@@ -5,53 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel = 'stylesheet' href = 'HW2_style.css'>
+    <link rel = 'stylesheet' href = 'HW3_style.css'>
 </head>
 <body class = 'min-height'>
-    <div class = 'main-flex-box h-45pct'>
-        <span class = 'ver-flex-box d-inline-block w-13pct r-margin'>
-            <span class = 'sb-red'></span>
-            <span class = 'sb-ocean-blue'></span>
-            <span class = 'sb-light-blue'></span>
-            <span class = 'sb-ocean-blue'></span>
-            <span class = 'sb-light-blue'></span>
-            <span class = 'sb-ocean-blue'></span>
-            <span class = 'sb-light-blue'></span>
-            <span class = 'sb-ocean-blue'></span>
-            <span class = 'sb-light-blue'></span>
+    <div class = 'main-flex-box h-350px'>
+        <span class = 'ver-flex-box w-150px r-margin'>
+            <span class = 'sb-logo'></span>
+            <span class = 'sb-icon f-pathway-gothic'>
+                <img src = 'static/images/icons/nav-tastemakers.png' class = 'icon-height'>
+                <span class = 'f-pathway-gothic'>Tastemakers</span>
+            </span>
+            <span class = 'sb-icon'>
+                <img src = 'static/images/icons/nav-about.png' class = 'icon-height'>
+                <span class = 'f-pathway-gothic'>Blog</span>
+            </span>
+            <span class = 'sb-icon'>
+                <img src = 'static/images/icons/nav-alist.png' class = 'icon-height'>
+                <span class = 'f-pathway-gothic'>The A-List</span>
+            </span>
+            <span class = 'sb-icon'>
+                <img src = 'static/images/icons/nav-contribute.png' class = 'icon-height'>
+                <span class = 'f-pathway-gothic'>Contribute</span>
+            </span>
+            <span class = 'sb-icon'>
+                <img src = 'static/images/icons/nav-about.png' class = 'icon-height'>
+                <span class = 'f-pathway-gothic'>About</span>
+            </span>
         </span>    
-        <span class = 'hor-top-flex-box w-85pct p-header'>
-
-            <span class = 'white'></span>
-            <span class = 'black'></span>
+        <div id = 'p-header' class = 'hor-top-flex-box w-850px'>
+            <div class = 'white t-white'>Read, Learn, Share</div>
+            <span class = 'black t-black'>Get daily how-tos, stories & updates with the latest news</span>
+        </div>
+    </div>
+    
+    <div class = 'main-flex-box h-350px'>
+        <span class = 'ver-flex-box w-150px r-margin'>
+            <span class = 'sb-gray'>
+                <div> Latest tweet</div>
+                <div style = 'box-sizing: border-box; border: 1px dashed red'>
+                    <img src = 'static/images/icons/icon-twitter.png' height = '20px' width = '25px'>
+                    <span class = 'f-amatic'>Join the conversation</span>
+                </div>
+            </span>
+            <span class = 'sb-gray t-margin'>
+                <div> Let's be friends</div>
+                <div class = 'f-gamja'> For weekly finds, community recommendations, and more, like us on Facebook</div>
+                <div class = 'border-box border-box--dashed'>
+                    <img src = 'static/images/icons/icon-facebook.png' height = '20px' width = '25px'>
+                    <span class = 'f-amatic'>Join the community/span>
+                </div>
+            </span>    
+        </span>
+        <span class = 'hor-bot-flex-box w-850px wrap'> 
+            <span class = 'green'>
+                <span class = 't-margin-5pct f-roboto'>Tastemakers</span>
+                <span class = 't-margin-5pct f-amatic'>Feast your eyes and get recipes!</span>
+            </span>
+            <span class = 'green'> 
+                <span class = 't-margin-5pct f-roboto'>Blog</span>
+                <span class = 't-margin-5pct f-amatic'>News, how-tos, stories and more</span>
+            </span>
+            <span class = 'green'> 
+                <span class = 't-margin-5pct f-roboto'>The A-List</span>
+                <span class = 't-margin-5pct f-amatic'>Handpicked, absolute favorites</span>
+            </span>
+            <span class = 'green'> 
+                <span class = 't-margin-5pct f-roboto'>Contribute</span>
+                <span class = 't-margin-5pct f-amatic'>We want to hear from you!</span>
+            </span>
+            <span class = 'hor-bot-flex-box blueish'>
+                <img src = 'static/images/icons/mail.icon.png' height = '20px' width = '25px'>
+                <span class = 'f-amatic'>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delievered weekly to your inbox. </span>
+            </span>
+            <span class = 'hor-bot-flex-bot redish'> 
+                <input type="text" value = "Email" style = 'width: 250px'>
+                <input type="submit" value = "Subscribe">
+            </span>
+            <span> 
+                <img src = 'static/images/cookbooks-blog.jpg' class = 'bg-cover'>
+            </span>
+            <span> 
+                <img src = 'static/images/potato.jpg' class = 'bg-cover'>
+            </span>
+            <span> 
+                <img src = 'static/images/pinterest.jpg' class = 'bg-cover'>
+            </span>
+            <span> 
+                <img src = 'static/images/dinner-blog.jpg' class = 'bg-cover' style = 'margin-right: 20px'>
+            </span>
+            <span class = 'ver-flex-box pink-red'> 
+                <div class = 'f-ubunto'>2012's Best Summer Cookbooks</div>
+                <div class = 'f-lato'>With the best of the season coming from "orchards, farms and gardens," NPR has put together an impressive collection of 10 summer cookbooks.</div>
+                <div class = 'flex-box--row'>
+                    <span style = 'color: gray'>May 23, 2012 / </span>
+                    <span style = 'box-sizing: border-box; border-bottom: 1px dashed gray; color: lightskyblue'>Read &#x27AF</span>
+                </div>
+            </span>
+            <span class = 'ver-flex-box pink-red'> 
+                <div class = 'f-ubunto'>How to Make Vegetables</div>
+                <div class = 'f-lato'>About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousins in Brooklyn, and before a very thoughtfully prepared vegan...</div>
+                <div class = 'flex-box--row'>
+                    <span style = 'color: gray'>May 17, 2012 / </span>
+                    <span style = 'box-sizing: border-box; border-bottom: 1px dashed gray; color: lightskyblue'>Read &#x27AF</span>
+                </div>
+            </span>
+            <span class = 'ver-flex-box pink-red'> 
+                <div class = 'f-ubunto'>Join us on Pinterest!</div>
+                <div class = 'f-lato'>If I could curate a cookbook for you, this would be it.</div>
+                <div class = 'flex-box--row'>
+                    <span style = 'color: gray'>May 16, 2012 / </span>
+                    <span style = 'box-sizing: border-box; border-bottom: 1px dashed gray; color: lightskyblue'>Read &#x27AF</span>
+                </div>
+            </span>
+            <span class = 'ver-flex-box pink-red'> 
+                <div class = 'f-ubunto'>Recipes from a Sunday Supper</div>
+                <div class = 'f-lato'>I could not figure out what to do with the delectable slices of Pear Cake that I brough home from this wonderful Sunday supper - eat them slowly, a little bit at ...</div>
+                <div class = 'flex-box--row'>
+                    <span style = 'color: gray'>May 15, 2012 / </span>
+                    <span style = 'box-sizing: border-box; border-bottom: 1px dashed gray; color: lightskyblue'>Read &#x27AF</span>
+                </div>
+            </span>
         </span>
     </div>
     
-    <div class = 'main-flex-box h-45pct'>
-        <span class = 'ver-flex-box d-inline-block w-13pct r-margin'>
-            <span class = 'sb-gray'></span>
-            <span class = 'sb-gray t-margin'></span>    
+    <div class = 'hor-bot-flex-box h-50px w-1000px t-margin border-box border-box--solid'>
+        <span style =  'align-items: left; color: lightskyblue'>Private Policy|Terms of use|Contact</span>
+        <span style =  'align-items: right'>
+                <img src = 'static/images/icons/icon-twitter.png' style = 'height: 20px; width: 25px)'>
+                <img src = 'static/images/icons/icon-facebook.png' style = 'height: 20px; width: 25px'>
+                <img src = 'static/images/icons/icon-rss.png' style = 'height: 20px; width: 25px'>
         </span>
-        <span class = 'hor-bot-flex-box  d-inline-block w-85pct wrap'> 
-            <span class = 'green'> </span>
-            <span class = 'green'> </span>
-            <span class = 'green'> </span>
-            <span class = 'green'> </span>
-            <span class = 'blueish'> </span>
-            <span class = 'redish'> </span>
-            <span class = 'green-mold'> </span>
-            <span class = 'green-mold'> </span>
-            <span class = 'green-mold'> </span>
-            <span class = 'green-mold'> </span>
-            <span class = 'pink-red'> </span>
-            <span class = 'pink-red'> </span>
-            <span class = 'pink-red'> </span>
-            <span class = 'pink-red'> </span>
-        </span>
-    </div>
-    
-    <div class = 'bg-gray main-flex-box h-10pct t-margin'>
-        
     </div>
 </body>
 </html>
