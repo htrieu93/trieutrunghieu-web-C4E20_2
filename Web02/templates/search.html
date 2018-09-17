@@ -4,20 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mùa Đông Không Lạnh</title>
+    {% include "meta-data.html" %}
 </head>
 <body>
-    <h1> Search page </h1>
-    {% for service in all_service %}
-        <div>
-            <!-- image -->
-            <img src = "../static/image/images.png" alt = "" height = '200' width = '300'>
-            <p> Tên: {{service.name}} </p>
-            <p> Năm sinh: {{service.yob}} </p>
-            <p> Chiều cao: {{service.height}} cm </p>
-            <a href = "{{ url_for('detail', service_id = service.id) }}"> Chi tiết </a>
-            <hr>
-        </div>
-    {% endfor %}
+    {% include "homepage/navigation.html" %}
+    {% include "homepage/search-result.html" %}
 </body>
 </html>

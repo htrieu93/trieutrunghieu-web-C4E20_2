@@ -5,20 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mùa Đông Không Lạnh</title>
+    {% include "meta-data.html" %}
 </head>
 <body>
-    <img src = "{{service.image}}" alt = "" height = '300' width= '200'>
-    <h2> {{ service.name }} </h2>
-    <p> <b>Năm sinh:</b> {{ service.yob }} </p>
-    <p> <b>Cao:</b> {{ service.height }}</p>
-    <p> <b>Số điện thoại:</b> {{ service.phone }} </p>
-    <p> <b>Địa chỉ:</b> {{ service.address }}</p>
-    <p> <b>Mô tả:</b> 
-        {{ service.descriptions|join(', ') }}
-    </p>
-    <p> <b>Số đo ba vòng:</b> 
-        {{ service.measurements|join('- ') }}
-    </p>
-    <a href = "{{ url_for('order')}}"> Yêu cầu dịch vụ</a>
+    {% include "homepage/service-detail.html" %}
 </body>
 </html>

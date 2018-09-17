@@ -16,11 +16,17 @@
     flex-direction: column;
 }
 
-.f--space_btw{
+.f--col-rev{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.f--space-btw{
+    display: flex;
     justify-content: space-between;
 }
 
-.f--space_even{
+.f--space-even{
     justify-content: space-evenly;
 }
 
